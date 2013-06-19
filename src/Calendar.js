@@ -81,6 +81,9 @@ function Calendar(element, options, eventSources) {
 		if (options.isRTL) {
 			element.addClass('fc-rtl');
 		}
+		else {
+			element.addClass('fc-ltr');
+		}
 		if (options.theme) {
 			element.addClass('ui-widget');
 		}
